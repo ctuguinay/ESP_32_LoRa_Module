@@ -11,13 +11,13 @@ void setup() {
 void loop() {
   // Turn on the LED
   digitalWrite(ledPin, HIGH);
-  
-  // Wait for 5 second
-  delay(5000);
-  
+
+  // Wait for 1 second
+  delay(1000);
+
   // Turn off the LED
   digitalWrite(ledPin, LOW);
-  
-  // Wait for 5 second
-  delay(5000);
+
+  // Wait for 1 second
+  delay(1000);
 }
